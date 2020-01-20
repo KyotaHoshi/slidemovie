@@ -1,0 +1,26 @@
+.wrap {
+    margin: 100px auto;
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pig__img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.back {
+    z-index: 3;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in 1.7s;
+}
+
+.appear {
+    opacity: 0;
+    z-index: 5;
+    transform: scale(1.5);
+    transition: transform 2s linear, opacity 0.3s ease-in 1.7s;
+}
