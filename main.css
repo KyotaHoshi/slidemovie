@@ -22,5 +22,5 @@
     opacity: 0;
     z-index: 5;
     transform: scale(1.5);
-    transition: transform 2s linear, opacity 0.3s ease-in 1.7s;
+    transition: transform 2s linear, opacity 0.4s ease-in 1.6s;
 }
